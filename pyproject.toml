@@ -1,13 +1,20 @@
 [project]
 name = "langgraph-chatbot"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple LangGraph-based chatbot with a Streamlit frontend powered by Groq"
 readme = "README.md"
 authors = [
-    { name = "Ramkrishna Rathore", email = "tspy1947@gmail.com" }
+    { name = "Ramkrishna Rathore", email = "luckyrathore70495@kgpian.iitkgp.ac.in" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langchain-groq",
+    "python-dotenv",
+    "streamlit",
+    "pydantic",
+]
 
 [project.scripts]
 langgraph-chatbot = "langgraph_chatbot:main"
