@@ -1,5 +1,5 @@
 import streamlit as st
-from src.langgraph_chatbot.backend import chatbot
+from langgraph_chatbot.backend import chatbot
 from langchain_core.messages import HumanMessage
 
 config1 = {'configurable':{'thread_id':1}}

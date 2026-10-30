@@ -10,3 +10,6 @@ wheels/
 .venv/
 /bot/
 /.env
+.DS_store
+my-env/
+.env*
